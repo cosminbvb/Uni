@@ -115,8 +115,7 @@ int main()
 	ifstream fin("dfa.txt");
 	fin >> M;
 	fin.close();
-	//example of accepted word:
-	//int lastState = M.deltaStar(M.getInitialState(), "ab");
+	//ab is an accepted word given the example input in dfa.txt;
 	char s[100];
 	cout << "Enter word\n";
 	cin >> s;
