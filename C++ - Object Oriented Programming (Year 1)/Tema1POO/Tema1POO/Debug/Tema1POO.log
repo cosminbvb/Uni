@@ -1,0 +1,8 @@
+﻿  Tema1POO.cpp
+c:\users\cosmi\onedrive\desktop\tema1poo\tema1poo\tema1poo.cpp(60): warning C4018: '>=': signed/unsigned mismatch
+c:\users\cosmi\onedrive\desktop\tema1poo\tema1poo\tema1poo.cpp(83): warning C4018: '<': signed/unsigned mismatch
+c:\users\cosmi\onedrive\desktop\tema1poo\tema1poo\tema1poo.cpp(136): warning C4018: '<': signed/unsigned mismatch
+c:\users\cosmi\onedrive\desktop\tema1poo\tema1poo\tema1poo.cpp(146): warning C4018: '<': signed/unsigned mismatch
+c:\users\cosmi\onedrive\desktop\tema1poo\tema1poo\tema1poo.cpp(147): warning C4018: '<': signed/unsigned mismatch
+c:\users\cosmi\onedrive\desktop\tema1poo\tema1poo\tema1poo.cpp(160): warning C4018: '<=': signed/unsigned mismatch
+  Tema1POO.vcxproj -> C:\Users\cosmi\OneDrive\Desktop\Tema1POO\Debug\Tema1POO.exe
