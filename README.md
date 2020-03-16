@@ -1,3 +1,3 @@
 # Uni
-Repository containing some of my University work \n
--Mainly home assignments-
+Repository containing some of my University work.
+(Mainly home assignments for now)
