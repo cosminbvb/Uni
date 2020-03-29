@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MinHeap and HeapSort", "MinHeap and HeapSort\MinHeap and HeapSort.vcxproj", "{1DEB92E4-8111-4BCF-AB62-67F370597E84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DEB92E4-8111-4BCF-AB62-67F370597E84}.Debug|x64.ActiveCfg = Debug|x64
+		{1DEB92E4-8111-4BCF-AB62-67F370597E84}.Debug|x64.Build.0 = Debug|x64
+		{1DEB92E4-8111-4BCF-AB62-67F370597E84}.Debug|x86.ActiveCfg = Debug|Win32
+		{1DEB92E4-8111-4BCF-AB62-67F370597E84}.Debug|x86.Build.0 = Debug|Win32
+		{1DEB92E4-8111-4BCF-AB62-67F370597E84}.Release|x64.ActiveCfg = Release|x64
+		{1DEB92E4-8111-4BCF-AB62-67F370597E84}.Release|x64.Build.0 = Release|x64
+		{1DEB92E4-8111-4BCF-AB62-67F370597E84}.Release|x86.ActiveCfg = Release|Win32
+		{1DEB92E4-8111-4BCF-AB62-67F370597E84}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4DA34D5-563C-4BFF-80B2-72289162EDC1}
+	EndGlobalSection
+EndGlobal
