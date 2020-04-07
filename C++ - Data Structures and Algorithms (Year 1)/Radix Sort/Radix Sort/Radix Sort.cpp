@@ -5,7 +5,7 @@
 
 /*
 Given n d-digit numbers in which each digit can take on up to k possible values,
-radix-sort correctly sors these numbers in θ(d(n+k)) time is the stable sort it 
+radix-sort correctly sorts these numbers in θ(d(n+k)) time if the stable sort it 
 uses takes θ(n+k) time.
 */
 
