@@ -1,1 +1,1 @@
--Disclaimer- Only used on positive integers
+-Disclaimer- Only works on positive integers
