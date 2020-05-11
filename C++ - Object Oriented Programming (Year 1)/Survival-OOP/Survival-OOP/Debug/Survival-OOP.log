@@ -1,0 +1,5 @@
+﻿  GameEngine.cpp
+C:\fac\lab poo\Survival-OOP\Survival-OOP\GameEngine.cpp(60,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\fac\lab poo\Survival-OOP\Survival-OOP\GameEngine.cpp(109,27): warning C4018: '<': signed/unsigned mismatch
+C:\fac\lab poo\Survival-OOP\Survival-OOP\GameEngine.cpp(110,28): warning C4018: '<': signed/unsigned mismatch
+  Survival-OOP.vcxproj -> C:\fac\lab poo\Survival-OOP\Debug\Survival-OOP.exe
