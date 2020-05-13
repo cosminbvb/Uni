@@ -1,0 +1,5 @@
+﻿  DirectedGraph.cpp
+C:\fac\struct date lab\DirectedGraph\DirectedGraph\DirectedGraph.cpp(34,14): warning C4018: '>=': signed/unsigned mismatch
+C:\fac\struct date lab\DirectedGraph\DirectedGraph\DirectedGraph.cpp(94,23): warning C4018: '<': signed/unsigned mismatch
+C:\fac\struct date lab\DirectedGraph\DirectedGraph\DirectedGraph.cpp(108,23): warning C4018: '<': signed/unsigned mismatch
+  DirectedGraph.vcxproj -> C:\fac\struct date lab\DirectedGraph\Debug\DirectedGraph.exe
