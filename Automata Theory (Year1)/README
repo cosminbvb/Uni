@@ -4,3 +4,4 @@ C++ implementations of:
 - λ-NFA (lambda-NFA)  
 - DFA to REGEX
 - DFA minimization
+- CYK Algorithm
