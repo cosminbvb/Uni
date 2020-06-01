@@ -5,3 +5,4 @@ C++ implementations of:
 - DFA to REGEX
 - DFA minimization
 - CYK Algorithm
+- CFG->CNF (Context free grammar -> Chomsky normal form)
