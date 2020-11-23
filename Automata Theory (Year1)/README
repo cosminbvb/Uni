@@ -3,6 +3,6 @@ C++ implementations of:
 - NFA (nondeterministic finite automaton)
 - λ-NFA (lambda-NFA)  
 - DFA to REGEX
-- DFA minimization
+- DFA minimization (deleted)
 - CYK Algorithm
 - CFG->CNF (Context free grammar -> Chomsky normal form)
