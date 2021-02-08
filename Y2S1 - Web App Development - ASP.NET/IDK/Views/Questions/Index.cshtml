@@ -1,0 +1,15 @@
+﻿<h3 style="color: darkblue">@ViewBag.Message</h3>
+
+<h2>Top Questions</h2>
+
+@foreach(IDK.Models.Question q in ViewBag.Questions)
+{
+    <div class="panel panel-default">
+        @Html.Partial("QuestionShow", q) @*pentru fiecare question apelam view ul partial care o afiseaza*@
+        <div class="panel-footer">
+            <a class="btn btn-success" href="/Questions/Show/@q.Id">See more</a>
+        </div>
+    </div>
+}
+<a class="btn btn-primary" href="/Questions/New">Ask something</a>
+

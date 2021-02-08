@@ -1,0 +1,67 @@
+﻿
+@{
+    ViewBag.Title = "Search results";
+}
+
+<h2>Questions:</h2>
+
+@*@Html.Partial("_SortPartial")*@
+
+@foreach (IDK.Models.Question q in ViewBag.Questions)
+{
+    <div class="panel panel-default">
+        @Html.Partial("QuestionShow", q) @*pentru fiecare question apelam view ul partial care o afiseaza*@
+        <div class="panel-footer">
+            <a class="btn btn-success" href="/Questions/Show/@q.Id">See more</a>
+        </div>
+    </div>
+}
+
+<nav aria-label="Page navigation">
+    <ul class="pagination">
+        <li>
+            @*<a href="/Questions/ShowByCategory/@ViewBag.CatId?page=@(ViewBag.CurrentPage>=2?ViewBag.CurrentPage-1:1)" aria-label="Previous">*@
+            @Html.ActionLink("<<", "Search", new {
+                                                    SearchString = ViewBag.SearchString,
+                                                    page = (ViewBag.CurrentPage >= 2 ? ViewBag.CurrentPage - 1 : 1)
+                                                   })
+            @*<span aria-hidden="true">&laquo;</span>*@
+            </a>
+        </li>
+
+        @for (int i = 1; i <= ViewBag.PageNr; i++)
+        {
+            if (i != ViewBag.CurrentPage)
+            {
+                @*<li><a href="/Questions/ShowByCategory/@ViewBag.CatId?page=@i">@(i)</a></li>*@
+                <li>
+                    @Html.ActionLink(i.ToString(), "Search", new { page = i,
+                                                                   SearchString = ViewBag.SearchString
+                                                                  })
+                </li>
+
+            }
+            else
+            {
+                @*<li><a href="/Questions/ShowByCategory/@ViewBag.CatId?page=@i"><b>@(i)</b></a></li>*@
+                <li style="font-weight:bold;">
+                    @Html.ActionLink(i.ToString(), "Search", new {  page = i,
+                                                                    SearchString = ViewBag.SearchString
+                                                                  })
+                </li>
+            }
+        }
+
+        <li>
+            @*<a href="/Questions/ShowByCategory/@ViewBag.CatId?page=@(ViewBag.CurrentPage<ViewBag.PageNr?ViewBag.CurrentPage+1:ViewBag.PageNr)&dateBox=@(ViewBag.Sort["dateBox"])" aria-label="Next">*@
+            @Html.ActionLink(">>", "Search", new {  SearchString = ViewBag.SearchString,
+                                                    page = ((ViewBag.CurrentPage < ViewBag.PageNr) ? ViewBag.CurrentPage + 1 : ViewBag.PageNr)
+
+                                                   })
+            @*<span aria-hidden="true">&raquo;</span>*@
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<a class="btn btn-primary" href="/Questions/New">Ask something</a>

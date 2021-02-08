@@ -1,4 +1,0 @@
-﻿  main.cpp
-C:\fac\lab poo\HashMap\HashMap\main.cpp(19,24): warning C4101: 'e': unreferenced local variable
-C:\fac\lab poo\HashMap\HashMap\main.cpp(33,24): warning C4101: 'e': unreferenced local variable
-  HashMap.vcxproj -> C:\fac\lab poo\HashMap\Debug\HashMap.exe

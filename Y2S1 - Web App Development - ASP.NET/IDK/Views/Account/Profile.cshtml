@@ -1,0 +1,24 @@
+﻿@if (TempData.ContainsKey("message")) {
+    <div class="alert alert-success"><h1>@TempData["message"]</h1></div>
+    }
+
+@using (Html.BeginForm(actionName: "Edit", controllerName: "Profile"))
+{
+    @Html.HttpMethodOverride(HttpVerbs.Put)
+    <h2 style="display:inline-block; margin-top:0.7em">Your profile  </h2>
+    @*@Html.ActionLink("settings", "Index", "Manage", null ,new {@class = "settingsBtn" });*@
+    <a style="display:inline" href="/Manage"><img class="settingsBtn" src="..\Content\images\settings.png"></img></a>
+    <br>
+    <br>
+    <div class="form-group">
+        <label for="email">Email </label>
+        <input class="form-control" style="color:black" name="email" id="email" type="text" value="@ViewBag.Email">
+    </div>
+    <div class="form-group">
+        <label for="name">Name </label>
+        <input class="form-control" style="color:black" name="name" id="name" type="text" value="@ViewBag.Name">
+    </div>
+    <br>
+    <br>
+    <button class="btn btn-success" type="submit">Save</button>
+}

@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Users list";
+}
+<br />
+<h2>@ViewBag.Title</h2>
+<br />
+
+@foreach (var user in ViewBag.UsersList)
+{
+    <div class="panel-heading">Username: @user.UserName</div>
+
+    <div class="panel-body">
+
+        <i class="glyphicon glyphicon-envelope"></i> Email: <span class="label label-default">@user.Email</span>
+
+        <br />
+
+        @if (@user.PhoneNumber != null)
+        {
+            <i class="glyphicon glyphicon-phone"></i>@:Phone number:<span class="label label-default">@user.PhoneNumber</span>
+        }
+
+    </div>
+
+    <div class="panel-footer">
+
+        <a class="btn btn-sm btn-success" href="/Users/Edit/@user.Id"> Edit</a>
+        <a class="btn btn-sm btn-success" href="/Users/Show/@user.Id"> View</a>
+
+    </div>
+
+    <br />
+    <br />
+}
+
+
