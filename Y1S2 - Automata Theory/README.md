@@ -1,4 +1,4 @@
-C++ implementations of:
+#### C++ implementations of:
 - DFA (deterministic finite automaton)
 - NFA (nondeterministic finite automaton)
 - λ-NFA (lambda-NFA)  

@@ -1,4 +1,4 @@
-#####This folder contains algorithms for graphs and problems based on them.
+##### This folder contains algorithms for graphs and problems based on them.
 
 Some of them are:
 - Lab 1 

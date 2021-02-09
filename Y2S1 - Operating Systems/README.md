@@ -4,3 +4,5 @@
 - lab5 - IPC
 - lab6 - Threads
 - lab7 - Synchronizing (Mutex, Semaphores)
+
+The project repository can be found [here](https://github.com/cosminbvb/Shell "here").

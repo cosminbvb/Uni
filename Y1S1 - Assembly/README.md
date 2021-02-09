@@ -1,2 +1,2 @@
 - Assignment 1 - Encryption via groups isomorphism
-- Assignment 2 - Recursive procedures that replace every array element following the rule ( v[i]=Σ j*j | for every j<sqrt(x) )
+- Assignment 2 - Recursive procedure that replaces every array element following the rule ( v[i]=Σ j*j | for every j<sqrt(x) )

@@ -1,4 +1,4 @@
-TO DO## PL/SQL
+### PL/SQL
 - 2 - Data types (Collections and Records)
 - 3 - Cursors
 - 4 - Procedures and Functions 
