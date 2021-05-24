@@ -1,0 +1,3 @@
+(4.0, 2.0) - in interior
+(5.0, 1.0) - pe cerc
+(7.0, 1.0) - in exterior
