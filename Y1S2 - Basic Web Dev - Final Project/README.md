@@ -1,1 +1,0 @@
-#### The final project for the Year 1 Web Development Course can be found [here](https://github.com/cosminbvb/Predictall "here").

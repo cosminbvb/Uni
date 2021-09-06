@@ -1,1 +1,0 @@
-### This is just a clone of the original project and does not contain all the auto-generated an necessary files. The actual repository containing the project can be found [here](https://github.com/cosminbvb/IDK "here").

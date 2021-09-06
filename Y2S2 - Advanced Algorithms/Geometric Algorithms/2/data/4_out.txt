@@ -1,3 +1,0 @@
-D = (4.0, 2.0) - AC ilegala
-D = (5.0, 1.0) - AC & BD legale
-D = (7.0, 1.0) - BD ilegala
