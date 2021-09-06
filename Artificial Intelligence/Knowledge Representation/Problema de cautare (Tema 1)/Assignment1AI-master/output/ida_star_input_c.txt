@@ -1,0 +1,40 @@
+Solutie:
+ionel v george > diana v costin v simona v razvan v andrei >> oana > victor v nicoleta
+Cost: 8
+Lungime drum: 10
+Timp: 0.0010073184967041016 secunde
+Numarul total de noduri calculate: 34
+Numarul maxim de noduri din memorie: 25
+---------------------------------
+Solutie:
+ionel v george > diana v costin v simona v razvan < mihnea > razvan v andrei >> oana > victor v nicoleta
+Cost: 8
+Lungime drum: 12
+Timp: 0.0010073184967041016 secunde
+Numarul total de noduri calculate: 55
+Numarul maxim de noduri din memorie: 28
+---------------------------------
+Solutie:
+ionel v george > diana v costin v simona v razvan < mihnea > razvan < mihnea > razvan v andrei >> oana > victor v nicoleta
+Cost: 8
+Lungime drum: 14
+Timp: 0.0010073184967041016 secunde
+Numarul total de noduri calculate: 73
+Numarul maxim de noduri din memorie: 31
+---------------------------------
+Solutie:
+ionel v george > diana v costin v simona < luiza v mihnea > razvan v andrei >> oana > victor v nicoleta
+Cost: 8
+Lungime drum: 12
+Timp: 0.0010073184967041016 secunde
+Numarul total de noduri calculate: 95
+Numarul maxim de noduri din memorie: 34
+---------------------------------
+Solutie:
+ionel v george > diana v costin v simona < luiza v mihnea > razvan < mihnea > razvan v andrei >> oana > victor v nicoleta
+Cost: 8
+Lungime drum: 14
+Timp: 0.0010073184967041016 secunde
+Numarul total de noduri calculate: 113
+Numarul maxim de noduri din memorie: 34
+---------------------------------

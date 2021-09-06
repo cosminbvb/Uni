@@ -1,0 +1,14 @@
+﻿<h2>Add a tag</h2>
+
+@using (Html.BeginForm(actionName: "New", controllerName: "Tags"))
+{
+    @Html.Label("TagName", "What's the tag")
+    <br />
+    @Html.TextBox("TagName", null, new { @class = "form-control" })
+    @Html.ValidationMessage("TagName", null, new { @class = "text-danger" })
+    <br />
+    @Html.TextArea("Description", null, new { @class = "form-control summernote" })
+    <br />
+    <button class="btn btn-success" type="submit">Add</button>
+}
+

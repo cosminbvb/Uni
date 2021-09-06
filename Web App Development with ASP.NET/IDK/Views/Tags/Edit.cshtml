@@ -1,0 +1,18 @@
+﻿@model IDK.Models.Tag
+
+<h2>Edit</h2>
+
+<form method="post" action="/Tags/Edit/@Model.Id">
+    @Html.HttpMethodOverride(HttpVerbs.Put)
+    @Html.Label("TagName", "Tag Name")
+    <br />
+    @Html.Editor("TagName", new { htmlAttributes = new { style = "background-color:#000000;" } })
+    @Html.ValidationMessage("TagName", null, new { @class = "text-danger" })
+    <br />
+    <br />
+    @Html.Label("Description", "Description")
+    <br />
+    @Html.TextArea("Description", null, new { @class = "form-control summernote" })
+    <br /><br />
+    <button class="btn btn-success " type="submit">Submit</button>
+</form>

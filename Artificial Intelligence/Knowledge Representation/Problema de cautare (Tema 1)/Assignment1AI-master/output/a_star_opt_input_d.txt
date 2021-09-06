@@ -1,0 +1,7 @@
+Solutie:
+ionel > alina < ionel > alina < ionel > alina < ionel > alina v diana v costin v simona v razvan v andrei >> oana > victor v nicoleta >> maria > gabi ^ dorel ^ elena < gigel ^ tamara > dragos
+Cost: 13
+Lungime drum: 23
+Timp: 0.0009970664978027344 secunde
+Numarul total de noduri calculate: 89
+---------------------------------

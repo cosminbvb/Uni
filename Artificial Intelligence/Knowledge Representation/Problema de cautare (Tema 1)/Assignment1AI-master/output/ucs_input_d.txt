@@ -1,0 +1,35 @@
+Solutie:
+ionel > alina < ionel > alina < ionel > alina v diana < george > diana v costin v simona < luiza v mihnea > razvan v andrei >> oana > victor v nicoleta >> maria > gabi ^ dorel ^ elena < gigel ^ tamara > dragos
+Cost: 13
+Lungime drum: 25
+Timp: 0.3235492706298828 secunde
+Numarul total de noduri calculate: 43036
+---------------------------------
+Solutie:
+ionel > alina v diana < george > diana v costin v simona v razvan v andrei >> oana > victor v nicoleta >> maria > gabi ^ dorel ^ elena < gigel ^ tamara > dragos
+Cost: 13
+Lungime drum: 19
+Timp: 0.3255434036254883 secunde
+Numarul total de noduri calculate: 43221
+---------------------------------
+Solutie:
+ionel > alina < ionel > alina < ionel v george > diana < george > diana v costin v simona < luiza v mihnea > razvan v andrei >> oana > victor v nicoleta >> maria > gabi ^ dorel ^ elena < gigel ^ tamara > dragos
+Cost: 13
+Lungime drum: 25
+Timp: 0.3255434036254883 secunde
+Numarul total de noduri calculate: 43239
+---------------------------------
+Solutie:
+ionel > alina < ionel v george > diana < george > diana < george > diana v costin v simona v razvan v andrei >> oana > victor v nicoleta >> maria > gabi ^ dorel ^ elena < gigel ^ tamara > dragos
+Cost: 13
+Lungime drum: 23
+Timp: 0.3265411853790283 secunde
+Numarul total de noduri calculate: 43261
+---------------------------------
+Solutie:
+ionel > alina v diana < george > diana v costin v simona < luiza v mihnea > razvan v andrei >> oana > victor v nicoleta >> maria > gabi ^ dorel ^ elena < gigel ^ tamara > dragos
+Cost: 13
+Lungime drum: 21
+Timp: 0.32753825187683105 secunde
+Numarul total de noduri calculate: 43358
+---------------------------------

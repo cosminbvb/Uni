@@ -1,0 +1,39 @@
+Solutie:
+Cost: 0
+Lungime drum: 1
+Timp: 0.0 secunde
+Numarul total de noduri calculate: 1
+Numarul maxim de noduri din memorie: 52
+---------------------------------
+Solutie:
+ionel > alina < ionel
+Cost: 0
+Lungime drum: 3
+Timp: 0.0 secunde
+Numarul total de noduri calculate: 5
+Numarul maxim de noduri din memorie: 52
+---------------------------------
+Solutie:
+ionel > alina < ionel > alina < ionel
+Cost: 0
+Lungime drum: 5
+Timp: 0.0 secunde
+Numarul total de noduri calculate: 9
+Numarul maxim de noduri din memorie: 52
+---------------------------------
+Solutie:
+ionel > alina < ionel > alina < ionel > alina < ionel
+Cost: 0
+Lungime drum: 7
+Timp: 0.0 secunde
+Numarul total de noduri calculate: 13
+Numarul maxim de noduri din memorie: 52
+---------------------------------
+Solutie:
+ionel > alina < ionel > alina < ionel > alina < ionel > alina < ionel
+Cost: 0
+Lungime drum: 9
+Timp: 0.0 secunde
+Numarul total de noduri calculate: 17
+Numarul maxim de noduri din memorie: 52
+---------------------------------

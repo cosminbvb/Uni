@@ -1,0 +1,6 @@
+Solutie:
+Cost: 0
+Lungime drum: 1
+Timp: 0.0 secunde
+Numarul total de noduri calculate: 1
+---------------------------------

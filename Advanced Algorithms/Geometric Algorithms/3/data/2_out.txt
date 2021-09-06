@@ -1,0 +1,14 @@
+exemplul 1:
+(a) nu exista un dreptunghi cu proprietatea ceruta
+
+exemplul 2:
+(a) nu exista un dreptunghi cu proprietatea ceruta
+
+exemplul 3:
+(a) exista un dreptunghi cu proprietatea ceruta
+(b) aria minima este 1.0
+
+exemplul 4:
+(a) exista un dreptunghi cu proprietatea ceruta
+(b) aria minima este 6.0
+

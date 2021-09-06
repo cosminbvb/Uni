@@ -1,0 +1,77 @@
+﻿@model IDK.Models.Question
+<br />
+<br />
+@*similar cu view ul show de la question*@
+<div class="panel panel-default">
+    @Html.Partial("QuestionShow", Model)
+    <div class="panel-footer">
+        <a class="btn btn-success pull-left" href="/Questions/Edit/@Model.Id">Edit</a>
+
+        @using (Html.BeginForm(actionName: "Delete", controllerName: "Questions", method: FormMethod.Post, routeValues: new { id = @Model.Id }))
+        {
+            @Html.HttpMethodOverride(HttpVerbs.Delete)
+            <button class="btn btn-danger pull-right" type="submit">Delete</button>
+        }
+        <div class="clearfix"></div>
+    </div>
+
+</div>
+
+<br />
+@*
+aici, pentru fiecare answer, daca nu este answer ul pe care vrem sa il editam, il afisam normal
+altfel, facem un form in care punem continutul actual al raspunsului   
+*@
+@foreach (var ans in Model.Answers)
+{
+    if (ans != ViewBag.answerToEdit)
+    {
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div>
+                        @Html.Raw(ans.Content)
+                        <small class="pull-right">@ans.Date</small>
+                    </div>
+                    <div style="display: inline-block; float : left; margin-right: 15px">
+                        <a class="glyphicon glyphicon-pencil" href="/Answers/Edit/@ans.Id"></a>
+                    </div>
+                    <div style="display: inline-block; float : left">
+                        <form method="post" action="/Answers/Delete/@ans.Id">
+                            @Html.HttpMethodOverride(HttpVerbs.Delete)
+                            <button class="glyphicon glyphicon-trash" style="border: none; background: transparent" type="submit"></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <hr />
+    }
+    else
+    {
+        <div class="container">
+            <div class="row">
+                <div>
+                    <div class="panel">
+                        <form method="post" action="/Answers/Edit/@ViewBag.answerToEdit.Id">
+                            @Html.HttpMethodOverride(HttpVerbs.Put)
+                            <div class="panel-body">
+                                <input type="hidden" name="QuestionId" value="@Model.Id" />
+                                <label>Your answer</label>
+                                <br />
+                                <textarea class="form-control summernote" name="Content">@ViewBag.answerToEdit.Content</textarea>
+                                <br />
+                                <button class="btn btn-success " type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+}
+
+
