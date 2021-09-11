@@ -3,7 +3,7 @@ import math
 import numpy as np  # am folosit doar argmax, desi pentru optimizare putem folosi np arrays in loc de liste
 
 input_file = open('input.txt', 'r')
-coef = [float(i) for i in input_file.readline().split()]  # coeficientii ecuatiei de gradul 2
+coef = [float(i) for i in input_file.readline().split()]  # coeficientii polinomului
 def f(x):
     return coef[0]*x**3 + coef[1]*x**2 + coef[2]*x + coef[3]
 

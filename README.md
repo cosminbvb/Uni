@@ -9,7 +9,7 @@ Repository containing some of my University assignments.
 - Calculus 1 (Calcul diferential si integral)
 - Algebraic Structures (Structuri algebrice)
 - Computational Logic (Logica matematica si computationala)
-- Ethics and Critical Thinking (GCA)
+- Ethics and Critical Thinking (Gandire critica si etica academica)
 
 #### Semester 2:
 - [Object Oriented Programming](https://github.com/cosminbvb/Uni/tree/master/Object%20Oriented%20Programming)
@@ -24,16 +24,16 @@ Repository containing some of my University assignments.
 #### Semester 1:
 - [Operating Systems](https://github.com/cosminbvb/Uni/tree/master/Operating%20Systems)
 - [Fundamental Algorithms](https://github.com/cosminbvb/Uni/tree/master/Fundamental%20Algorithms)
-- [Web App Development with ASP.NET](https://github.com/cosminbvb/Uni/tree/master/Web%20App%20Development%20with%20ASP.NET) (DAW)
+- [Web App Development with ASP.NET](https://github.com/cosminbvb/Uni/tree/master/Web%20App%20Development%20with%20ASP.NET) (Dezvoltarea aplicatiilor web)
 - [Probability and Statistics](https://github.com/cosminbvb/Uni/tree/master/Probability%20and%20Statistics)
 - [Functional Programming](https://github.com/cosminbvb/Uni/tree/master/Functional%20Programming)
-- [Database Management Systems](https://github.com/cosminbvb/Uni/tree/master/Database%20Management%20Systems) (SGBD)
+- [Database Management Systems](https://github.com/cosminbvb/Uni/tree/master/Database%20Management%20Systems) (Sisteme de gestiune a bazelor de date)
 
 #### Semester 2:
 - [AI](https://github.com/cosminbvb/Uni/tree/master/Artificial%20Intelligence)
 - [Advanced Algorithms](https://github.com/cosminbvb/Uni/tree/master/Advanced%20Algorithms)
 - [Advanced OOP](https://github.com/cosminbvb/Uni/tree/master/Advanced%20Object%20Oriented%20Programming/StaySafe-master)
 - [Computer Networks](https://github.com/cosminbvb/Uni/tree/master/Computer%20Networks)
-- [Functional and Logic Programming](https://github.com/cosminbvb/Uni/tree/master/Functional%20and%20Logic%20Programming) (FLP)
-- Software Development Methods (MDS)
+- [Functional and Logic Programming](https://github.com/cosminbvb/Uni/tree/master/Functional%20and%20Logic%20Programming) (Fundamentele Limbajelor de Programare)
+- Software Development Methods (Metode de Dezvoltare Software)
 
